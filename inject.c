@@ -5,7 +5,7 @@
 INT APIENTRY DllMain(HMODULE hDLL, DWORD Reason, LPVOID Reserved)
 {
 	int nResult = MessageBox(NULL, "DLL Injected!",
-	                         "CPT Duby is Awesome",
+	                         "Life, finds a way.",
 							 MB_ICONINFORMATION|MB_OK);
 	Sleep(50000);
 	return TRUE;
